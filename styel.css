@@ -80,6 +80,10 @@ samp{
     flex-direction: column;
     margin-top: 5%;
 }
+.sec3 p{
+    width: 45%;
+    text-align: center;
+}
 /* sec3 end */
 /* sec4 start */
 .sec4{
