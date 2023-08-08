@@ -20,12 +20,20 @@ h1, p{
     align-items: center;
     justify-content: center;
 }
+samp{
+    color: #FBA24F;
+    font-size:60px ;
+}
 /* sec1 start */
 /* .sec1{
     display: flex;
     align-items: center;
     justify-content: center;
 } */
+.sec1 samp{    
+        color: #FBA24F;
+        font-size:60px ;
+}
 .hader{
     width: 30%;
 }
@@ -59,9 +67,6 @@ h1, p{
 .a-content{
     width: 30%;
 }
-.a-content h1{
-    font-size: 40px;
-}
 .a-content p{
    font-size: 20px;
    margin-bottom: 80px;
@@ -79,6 +84,7 @@ h1, p{
 /* sec4 start */
 .sec4{
     gap: 70px;
+    margin-bottom: 80px;
 }
 .r-content{
     display: flex;
@@ -98,5 +104,34 @@ h1, p{
     width: 100%;
     border-radius: 30px;
 }
-
 /* sec4 end */
+/* sec5 start */
+.sec5{
+    margin-bottom: 5%;
+}
+.count{
+    /* display: flex;
+    align-items: center; */
+    justify-content: space-around;
+    flex-direction: row;
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    width: 80%;
+}
+/* sec5 end */
+/* f-content start */
+.f-content{
+    /* display: flex;
+    align-items: center; */
+    flex-direction: column;
+    background-color:  #0B0D17;  
+}
+.f-content h1 samp{
+    color: #FBA24F;
+    font-size:35px ;
+}
+.f-content p{
+    color: #FFFFFF;
+}
+/* f-content end */
