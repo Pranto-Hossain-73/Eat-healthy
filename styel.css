@@ -19,10 +19,7 @@ h1, p{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-samp{
-    color: #FBA24F;
-    font-size:60px ;
+    margin-bottom: 5%;
 }
 /* sec1 start */
 /* .sec1{
@@ -30,9 +27,13 @@ samp{
     align-items: center;
     justify-content: center;
 } */
+/* .sec1{
+    margin-bottom: 5%;
+} */
 .sec1 samp{    
         color: #FBA24F;
         font-size:60px ;
+        font-family:'Montserrat', sans-serif;
 }
 .hader{
     width: 30%;
@@ -58,7 +59,7 @@ samp{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 10%;
+    /* margin-bottom: 5%; */
 }
 .sec2 img {
    width: 15%;
@@ -78,7 +79,7 @@ samp{
     align-items: center;
     justify-content: center; */
     flex-direction: column;
-    margin-top: 5%;
+    /* margin-bottom: 5%; */
 }
 .sec3 p{
     width: 45%;
@@ -88,14 +89,13 @@ samp{
 /* sec4 start */
 .sec4{
     gap: 70px;
-    margin-bottom: 80px;
+    /* margin-bottom: 5%; */
 }
 .r-content{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 70%;
-   margin-top: 5%;
    gap: 70px;
 }
 .card{
@@ -111,11 +111,11 @@ samp{
 /* sec4 end */
 /* sec5 start */
 .sec5{
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 .count{
-    /* display: flex;
-    align-items: center; */
+    display: flex;
+    align-items: center;
     justify-content: space-around;
     flex-direction: row;
     border-radius: 30px;
@@ -128,12 +128,13 @@ samp{
 .f-content{
     /* display: flex;
     align-items: center; */
+    margin: 0;
     flex-direction: column;
-    background-color:  #0B0D17;  
+    background-color:  #0B0D17;
 }
-.f-content h1 samp{
+.f-content samp{
     color: #FBA24F;
-    font-size:35px ;
+    font-family:'Montserrat', sans-serif;
 }
 .f-content p{
     color: #FFFFFF;
